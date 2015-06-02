@@ -26,7 +26,7 @@ Github은 서로 다른 계정에 똑같은 키를 사용하는것을 허용하�
 Host github.com
     User git
     IdentityFile ~/.ssh/id_rsa_foo
-# Second account
+# 두번째 계정의 인증서
 Host github.com-bar
     User git
     IdentityFile ~/.ssh/id_rsa_bar
