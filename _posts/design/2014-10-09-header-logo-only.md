@@ -3,6 +3,7 @@ layout: page
 title:  "Header With Logo Only"
 subheadline:  "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This is the default mode. It shows a header just with your logo on the standard background."
+published: false
 categories:
     - design
 tags:
@@ -13,7 +14,7 @@ tags:
 No front matter code needed.
 
 
-### All Header-Styles 
+### All Header-Styles
 {: .t60 }
 
 {% include list-posts.html tag='header' %}

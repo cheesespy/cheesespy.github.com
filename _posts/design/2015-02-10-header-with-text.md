@@ -9,6 +9,7 @@ tags:
     - design
     - background color
     - header
+published: false
 header:
     title: header with text
     background-color: "#EFC94C;"
@@ -29,7 +30,7 @@ header:
     caption_url: https://unsplash.com/
 ~~~
 
-### All Header-Styles 
+### All Header-Styles
 {: .t60 }
 
 {% include list-posts.html tag='header' %}
