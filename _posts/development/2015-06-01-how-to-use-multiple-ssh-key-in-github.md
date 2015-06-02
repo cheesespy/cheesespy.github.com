@@ -4,13 +4,14 @@ sidebar: no
 subheadline: Tip
 title:  "Github 에서 여러 계정의 ssh 인증을 사용하는 방법"
 teaser:
-breadcrumb: true
+header: no
 tags:
     - github
     - ssh
 categories:
     - development
 comments: true
+breadcrumb: true
 ---
 Github 에서 여러개의 계정을 사용할 경우에는 키체인을 이용한 https 인증을 사용하기 어렵습니다.
 이럴 경우에 여러개의 ssh 키를 사용함으로써 여러개의 계정을 동시에 사용할 수 있습니다.
@@ -20,7 +21,7 @@ Github은 서로 다른 계정에 똑같은 키를 사용하는것을 허용하�
 
 `vi` 등을 사용하여 `~/.ssh/config` 파일을 생성합니다.
 
-{% highlight text %}
+~~~
 # Default account
 Host github.com
     User git
@@ -29,7 +30,7 @@ Host github.com
 Host github.com-bar
     User git
     IdentityFile ~/.ssh/id_rsa_bar
-{% endhighlight %}
+~~~
 
 이제 repository를 클론할때나 remote를 지정해줄때 도메인 네임을 `github.com` 대신에 ssh config에서 지정한 호스트 네임인 `github.com-bar` 를 사용하면 두번째 키를 이용하여 인증을 하게 됩니다.
 예를들어,

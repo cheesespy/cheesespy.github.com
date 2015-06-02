@@ -2,7 +2,7 @@
 layout: page
 sidebar: right
 subheadline: Test post
-title:  "The Fisrt Post"
+title:  "The First Post"
 teaser: "Testing if I can post new"
 breadcrumb: true
 tags:
