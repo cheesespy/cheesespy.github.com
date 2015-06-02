@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "Let's talk about work a little."
+subheadline:
 header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/development/"
